@@ -1,0 +1,288 @@
+*
+	margin: 0
+	padding: 0
+	font-family: "Open Sans Condensed"
+	font-weight: normal
+
+body
+	max-width: 800px	
+
+header
+	height: 100px
+	width: 100%
+	background-color: #FFF3F3
+	display: inline-flex
+	justify-content: space-between
+	align-items: middle
+
+.insurancelogo
+	align-self: center
+	padding-left: 20px
+
+.topban
+	align-self: center
+	margin-right: 20px
+
+nav
+	width: 100%
+	height: 40px
+	background-color: #8E1616
+
+.foot
+	width: 100%
+	height: 40px
+	background-color: black
+
+nav a
+	font-size: 1.3em
+	margin-left: 15px
+	padding-top: 5px
+	display: block
+	float: left
+	text-decoration: none
+	color: white
+	letter-spacing: -2px
+	padding: 6px 5px
+
+nav a:hover
+	background-color: white
+	color: black
+
+.heroimg
+	position: relative
+	text-align: center
+	width: 100%
+
+.heroimg img
+	display: block
+	width: 100%
+	height: auto
+	
+
+.heroimg h1
+	color: #fff
+	position: absolute
+	top: 30px
+	left: 30px
+
+.jsbanner
+	position: absolute
+	top: 45.5%
+	left: 50%
+	transform: translate(-50%, -50%)
+	border: 1px solid black
+	width: 90%
+	background-color: rgba(255,255,255, 0.7)
+	text-align: center
+
+.jsbanner h5
+	font-size: 40px
+	letter-spacing: -2px
+	padding: 0 20%
+	margin-top: 20px
+
+.jsbox
+	margin-right: 30px
+
+
+.jsbox h6
+	font-size: 13px	
+	font-weight: bold
+	margin-top: 20px
+
+
+.mid
+	text-align: center
+	background-color: #CECECE
+	padding-bottom: 20px
+
+
+.jsflex
+	display: flex
+	justify-content: space-around
+	text-align: initial
+	width: 100%
+
+.jsbanner > h6
+	font-size: 40px
+	letter-spacing: -3px
+	color: #339235
+	margin: 35px 0
+
+.mid h2
+	letter-spacing: -2px
+	padding-left: 129px
+	padding-right: 129px
+
+.toptext
+	padding-top: 50px
+
+.button
+	height: 40px
+	width: 200px
+	background-color: #339235
+	border-radius: 20px
+	color: white
+	font-weight: bold
+	font-size: 25px
+	margin-top: 20px
+	border: none
+	border-radius: 4px
+	cursor: pointer
+
+input[type=text], select
+	width: 120%
+
+input[type=text]
+	padding: 5px 5px
+
+select
+	padding: 5px 0px
+	width: 128%
+
+.flex
+	display: flex
+	justify-content: space-between
+
+.boxed
+	width: 37%
+	border-top: 3px solid black
+	margin: 70px 2.5vw
+	padding-left: 50px
+	box-shadow: 5px 6px 20px -10px
+
+.boxed h3
+	padding-top: 20px
+	color: darkblue
+	margin-left: -25px
+
+
+.boxed h4
+	margin-left: -25px
+	font-size: 12px
+
+
+.boxed p
+	color: grey
+	font-size: 12px
+	padding-right: 50px
+	padding-bottom: 25px
+	margin-left: -25px
+
+h4 b
+	font-weight: bold
+	font-size: 12px	
+	padding-top: 10px
+
+ul
+	list-style: none
+
+ul li:before
+	content: '✔'
+	color: lightgreen
+	font-weight: bold
+	margin-right: 10px
+
+li
+	margin: 10px 0px
+	margin-left: -25px
+	font-size: 14px
+
+footer
+	height: 200px
+	width: 100%
+	background-color: black
+	text-align: center
+    
+.footimg 
+	width: 100%
+	background-color: black
+	display: inline-flex
+	justify-content: flex-end
+	align-items: center
+	margin-top: 30px
+
+.credits 
+	color: white
+	display: inline-block
+
+.teamflex
+	display: flex
+	justify-content: space-evenly
+	flex-wrap: wrap
+
+.teammem
+	width: 17%
+	margin-top: 20px
+
+.teammem img
+	width: 150px
+
+.teammem h2
+	font-size: 14px
+	text-align: center	
+
+#team
+	text-align: center
+
+.space
+	height: 92px		
+
+/* Media Query for 480px */
+    
+@media only screen and (max-width:30em)
+	div.topban
+		display: none
+
+	div.jsbanner
+		top: 37%
+
+	.jsbanner h5
+		font-size: 25px
+
+	.jsbanner > h6
+		font-size: 25px	
+
+	div.heroimg
+		height: 100%
+
+	.heroimg img
+		height: 500px
+
+	.heroimg h1
+		display: none
+
+	div.jsflex
+		flex-wrap: wrap
+
+	div.jsbox
+		width: 100%
+
+	input[type=text]
+		width: 100%
+
+	select
+		width: 104%
+
+	input[type=text], select
+		margin-left: 5px
+
+	.jsbox h6
+		margin-left: 5px	
+
+	h2.toptext
+		padding-top: 80px	
+
+	.mid h2
+		padding-left: 80px
+		padding-right: 80px
+
+	div.flex
+		flex-wrap: wrap
+
+	div.boxed
+		width: 85%
+		margin: 20px 2.5vw		
+
+	div.teammem
+		width: 33%	

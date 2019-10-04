@@ -1,0 +1,97 @@
+<!-- Media Query @ 480px -->
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Insurance CF</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="insurancelogo">
+            <img src="img/logo.png" alt="Insurance CF">
+        </div>
+        <div class="topban">
+            <img src="img/banner.png" alt="FSWD Banner">
+        </div>
+    </header>
+    <nav>
+        <a href="index.html" title="">Home</a>
+        <a href="team.html" title="">Team</a>
+    </nav>
+    <div class="heroimg">
+        <div>
+            <h1>Car Insurance</h1>
+        </div>
+        <div class="jsbanner">
+            <h5>Great coverage begins with a custom quote</h5>
+            <div class="jsflex">
+                <div class="jsbox">
+                    <h6>Your name:</h6>
+                    <input id="fullname" type="text">
+                    <br>
+                    <h6>Country:</h6>
+                    <select id="country">
+                        <option value="austria">Austria</option>
+                        <option value="hungary">Hungary</option>
+                        <option value="greece">Greece</option>
+                    </select>
+                </div>
+                <div class="jsbox">
+                    <h6>Age:</h6>
+                    <input id="age" type="text">
+                    <h6>Horsepower of your car:</h6>
+                    <input id="horse_power" type="text">
+                </div>
+            </div>
+            <button type="button" class="button" onclick="calculateInsurance()">Calculate</button>
+            <h6 id="result">Printed calculation goes here</h6>
+        </div>
+        <img src="img/traffic-332857_1920.jpg" alt="Traffic">
+        <div class="mid">
+            <h2 class="toptext">Un-complicating car coverage</h2>
+            <h2>Understanding your coverage options shouldn't be hard.</h2>
+            <h2>We'll guide you through available coverage types, starting with who and what's covered.</h2>
+        </div>
+    </div>
+    <div class="flex">
+        <div class="boxed">
+            <h3>What comes standard</h3>
+            <h4>The coverage you need</h4>
+            <ul>
+                <li>Bodily Injury Liablility</li>
+                <li>Property Damage</li>
+                <li>Medical Payments</li>
+            </ul>
+            <h4><b>Benefits</b></h4>
+            <p>12 month rate guarantee | 24/7 customer service | Lifetime Repair Guarantee</p>
+        </div>
+        <div class="boxed">
+            <h3>Add-on protection & coverage</h3>
+            <h4>For more peace of mind</h4>
+            <ul>
+                <li>Better Car Replacement</li>
+                <li>Towing & Labor</li>
+                <li>Rental Car Coverage</li>
+            </ul>
+            <h4><b>Earned Benefits</b></h4>
+            <p>Accident forgiveness¹ | New Car Replacement™ </p>
+        </div>
+    </div>
+    <footer>
+        <nav class="foot">
+            <a href="index.html" title="">Home</a>
+            <a href="team.html" title="">Team</a>
+        </nav>
+        <div class="footimg">
+            <img src="img/logo-inv.png" style="margin-right: 2.5vw;" alt="Insurance CF"></div>
+        <br>
+        <br>
+        <br>
+        <div class="credits">Steven Markhardt - CodeFactory 2019</div>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
